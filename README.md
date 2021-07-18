@@ -1,2 +1,33 @@
 # C-programming-use-into-sequence-printing
-#include&lt;stdio.h> int main() {     int i, j, n, k;     scanf("%d", &amp;n);      i = 1;     while(i &lt;= n)     {         j = 1;         while(j &lt;= n){             k = 1;             while(k &lt;= n){                   printf("%d %d %d", i, j, k);                 printf("\n");                 k++;             }              j++;          }           printf("\n");         i++;     }     return 0; }
+
+#include<stdio.h>
+int main()
+{
+    int i, j, n, k;
+    scanf("%d", &n);
+
+    i = 1;
+    while(i <= n)
+    {
+        j = 1;
+        while(j <= n){
+            k = 1;
+            while(k <= n){
+
+
+                printf("%d %d %d", i, j, k);
+                printf("\n");
+                k++;
+            }
+
+            j++;
+
+        }
+
+         printf("\n");
+
+       i++;
+    }
+
+   return 0;
+}
